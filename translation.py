@@ -10,7 +10,7 @@ This Bot forward all files to One Public channel to Your Personal channel
 
 More details /help
 
-© @Mo_Tech_YT</b>"""
+© @new_movies_group_2021</b>"""
   CAPTION = "`{}`\n\n" + str(Config.CAPTION)
   HELP_TXT = """<b>Follow These Steps!!</b>
 
