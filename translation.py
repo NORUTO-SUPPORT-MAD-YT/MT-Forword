@@ -35,7 +35,7 @@ More details /help
 
 <b>🤖Name :</b> <code>Auto Forward Bot</code>
 
-<b>👨‍🎓Credit :</b> <code>Dark Angel</code>
+<b>👨‍🎓Credit :</b> <code>༎̶꯭̱̅❰̶◥◣⃟ ̶͟͞͞͞〲𓄂 ͟͞͞͞𝙼𝚁𒆜➪𝙽𝙰𝚁𝚄𝚃𝙾【𝑜𝔽𝔽𒆜𝕃ıＮ𝔼】༎̶꯭̱̅❰🇮🇳</code>
 
 <b>🎙️Language :</b> <code>Python3</code>
 
