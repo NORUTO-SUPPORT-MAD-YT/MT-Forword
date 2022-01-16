@@ -11,11 +11,11 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 @Client.on_message(filters.private & filters.command(['start']))
 async def start(client, message):
     buttons = [[
-        InlineKeyboardButton('🗣️Group', url='t.me/mo_tech_Group'),
-        InlineKeyboardButton('📢Updates', url='t.me/mo_tech_yt'),
-        InlineKeyboardButton('📃Bot List', url='https://t.me/Mo_Tech_YT/176'),
+        InlineKeyboardButton('🔰Group', url='https://t.me/new_movies_group_2021'),
+        InlineKeyboardButton('🔰Updates', url='https://t.me/new_all_movies_club'),
+        InlineKeyboardButton('🔰Bot List', url='https://t.me/new_all_movies_club'),
     ],[
-        InlineKeyboardButton('🖥️ How To Own 🖥️', url='https://youtu.be/8kS8C9Tyvnc')
+        InlineKeyboardButton('🖥️ How To Own 🖥️', url='https://youtu.be/T1f_Lvr3fFE')
     ]]
     reply_markup = InlineKeyboardMarkup(buttons)
     await client.send_message(
@@ -28,11 +28,11 @@ async def start(client, message):
 @Client.on_message(filters.private & filters.command(['help']))
 async def help(client, message):
     buttons = [[
-        InlineKeyboardButton('🗣️Group', url='t.me/mo_tech_Group'),
-        InlineKeyboardButton('📢Updates', url='t.me/mo_tech_yt'),
-        InlineKeyboardButton('🔐Close', callback_data='close_btn')
+        InlineKeyboardButton('🔰Group', url='https://t.me/new_movies_group_2021'),
+        InlineKeyboardButton('🔰Updates', url='https://t.me/new_all_movies_club'),
+        InlineKeyboardButton('🔰Close', callback_data='close_btn')
         ],[
-        InlineKeyboardButton('🖥️ How To Own 🖥️', url='https://youtu.be/8kS8C9Tyvnc')
+        InlineKeyboardButton('🖥️ How To Own 🖥️', url='https://youtu.be/T1f_Lvr3fFE')
     ]]
     reply_markup = InlineKeyboardMarkup(buttons)
     await client.send_message(
@@ -44,11 +44,11 @@ async def help(client, message):
 @Client.on_message(filters.private & filters.command(['about']))
 async def about(client, message):
     buttons = [[
-        InlineKeyboardButton('🗣️Group', url='t.me/mo_tech_Group'),
-        InlineKeyboardButton('📢Updates', url='t.me/mo_tech_yt'),
-        InlineKeyboardButton('🔐Close', callback_data='close_btn')
+        InlineKeyboardButton('🔰Group', url='https://t.me/new_movies_group_2021'),
+        InlineKeyboardButton('🔰Updates', url='https://t.me/new_all_movies_club'),
+        InlineKeyboardButton('🔰Close', callback_data='close_btn')
         ],[
-        InlineKeyboardButton('🖥️ How To Own 🖥️', url='https://youtu.be/8kS8C9Tyvnc')
+        InlineKeyboardButton('🖥️ How To Own 🖥️', url='https://youtu.be/T1f_Lvr3fFE')
     ]]
     reply_markup = InlineKeyboardMarkup(buttons)
     await client.send_message(
